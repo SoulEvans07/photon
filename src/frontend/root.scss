@@ -1,0 +1,28 @@
+:root {
+  --color-red-600: hsl(350, 60%, 40%);
+  --color-red-500: hsl(350, 60%, 50%);
+  --color-red-400: hsl(350, 60%, 60%);
+  --color-red-300: hsl(350, 60%, 70%);
+  --color-red-200: hsl(350, 60%, 80%);
+
+  --font-size: 18px;
+  --border-radius: 0.25rem;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: var(--font-size);
+
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body.theme-light {
+  color-scheme: light;
+}
+
+body.theme-dark {
+  color-scheme: dark;
+}
